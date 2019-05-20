@@ -16,5 +16,10 @@ namespace GitHub_Demo
         {
             InitializeComponent();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("I am message");
+        }
     }
 }
